@@ -1,0 +1,85 @@
+body {
+    background-color: rgba(252, 248, 252, 0.824);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:2%;
+    padding:1%;
+}
+
+header{
+    background-color: rgba(199, 176, 197, 0.824);
+    line-height: 250%;
+    border-radius: 20px;
+
+}
+
+
+h1{
+    background-color: rgba(199, 176, 197, 0.0.703);
+    font-size: 40px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    padding:1%;
+    color:rgb(145, 120, 120);
+    text-align: center;
+    font-weight: 150;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+
+
+h2{
+    background-color: rgba(199, 176, 197, 0.703);
+    font-size: 20px;
+    text-transform: lowercase;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    padding:1%;
+    color:rgb(145, 120, 120);
+    text-align: center;
+    
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+
+#main-bio,
+#contact-info,
+#bio-image,{
+    float: left;
+}
+
+#main-bio{
+    width:70%;
+    }
+
+ #contact-info {
+     width:30%;
+     
+ }
+
+ a:link{
+    color:rgb(79, 189, 219)
+ }
+
+ a:visited {
+    background-color: rgb(75, 61, 130);
+ }
+
+ #bio-image{
+    width:200px;
+    height:200px;
+    margin-top:45px;
+    
+    margin-left:0 auto;
+    margin-right:0 auto;
+   display:block;
+   border-radius: 50%;
+   float: right;
+   border: dashed;
+   border-color: goldenrod
+    
+}
